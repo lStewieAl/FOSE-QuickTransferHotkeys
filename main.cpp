@@ -13,8 +13,6 @@
 void writeHooks();
 bool versionCheck(const FOSEInterface* fose);
 
-UInt32 directInputHook = NULL;
-
 extern "C" {
 
 	BOOL WINAPI DllMain(HANDLE hDllHandle, DWORD dwReason, LPVOID lpreserved) {
